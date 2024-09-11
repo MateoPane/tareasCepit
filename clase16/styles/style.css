@@ -1,0 +1,26 @@
+.padre {
+  display: flex;
+  justify-content: space-between;
+}
+.bloque1 {
+  background-color: lightcoral;
+  width: 19rem;
+  height: 10rem;
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  visibility: visible;
+}
+.bloque2 {
+  background-color: lightcoral;
+  width: 19rem;
+  height: 10rem;
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  visibility: visible;
+}

@@ -1,0 +1,13 @@
+Inicio
+Declaro la variable H en 0
+Declaro la variable M en 0
+Declaro la variable S en 0
+
+Le pido al usuario que escriba H M S 
+Luego le agrego 1 al contador de S
+Luego una condicion que si S es igual a 60 que se resetee y si NO que espere un segundo y se haga devuelta el bucle
+Luego le agrego 1 al contador de M
+Luego una condicion que si M es igual a 60 que se resetee y si NO que espere un segundo y se haga devuelta el bucle
+Luego le agrego 1 al contador de H
+Luego una condicion que si H es igual a 24 que se resetee y si NO que espere un segundo y se haga devuelta el bucle
+Cuando horas se resetea a 0 espera 1 segundo y se vuelve a ejecutar todo el bucle infinitamente
