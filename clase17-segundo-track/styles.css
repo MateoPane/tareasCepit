@@ -1,0 +1,74 @@
+body {
+  font-family: "Pixelify Sans", sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  background-image: url("./imgs/pokebackground.jpg");
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+.pokePadre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background-color: rgba(220, 220, 220, 0.266);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.pokemonesList {
+  background-color: rgba(255, 251, 0, 0.504);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  margin: 10px;
+  background-image: url("./imgs/pokepng.png");
+  background-size: 245px;
+  background-position: -6px;
+}
+
+.pokemonesList img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.pokemonesList h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+.pokemonesList p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 50px;
+}
+
+#cargarMasPokes {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#cargarMasPokes:hover {
+  background-color: #0056b3;
+}
