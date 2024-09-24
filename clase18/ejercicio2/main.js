@@ -1,0 +1,33 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Auto_1 = require("./modelos/Auto");
+var Camion_1 = require("./modelos/Camion");
+var Moto_1 = require("./modelos/Moto");
+var RegistroAutomotor_1 = require("./modelos/RegistroAutomotor");
+function main() {
+    var registro = new RegistroAutomotor_1.RegistroAutomotor();
+    var auto = new Auto_1.Auto("Toyota", "Supra", 1998);
+    var auto2 = new Auto_1.Auto("Nissan", "Skyline", 2002);
+    var moto = new Moto_1.Moto("Kawasaki", "Ninja", 2019);
+    var moto2 = new Moto_1.Moto("Bmw", "SR1000", 2020);
+    var camion = new Camion_1.Camion("Renault", "Kerax", 2012);
+    var camion2 = new Camion_1.Camion("Ford", "Cargo 1722", 2013);
+    registro.agregarVehiculo(auto);
+    registro.agregarVehiculo(auto2);
+    registro.agregarVehiculo(moto);
+    registro.agregarVehiculo(moto2);
+    registro.agregarVehiculo(camion);
+    registro.agregarVehiculo(camion2);
+    console.log("Lista inicial de vehiculos:");
+    registro.listarVehiculos();
+    auto2.setModelo("Skyline GTR");
+    registro.modificarVehiculo(1, auto2);
+    moto.setModelo("Ninja H2");
+    registro.modificarVehiculo(2, moto);
+    camion.setModelo("Kerax 440");
+    registro.modificarVehiculo(4, camion);
+    registro.darDeBaja(5);
+    console.log("Lista de vehiculos:");
+    registro.listarVehiculos();
+}
+main();
