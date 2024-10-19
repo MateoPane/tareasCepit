@@ -8,6 +8,14 @@ class Luchador extends Personaje {
     this.fuerza = fuerza;
   }
 
+  atacar(): void {
+    console.log(`${this.nombre} lanza un golpe`);
+  }
+
+  defender(): void {
+    console.log(`${this.nombre} se defiende`);
+  }
+
   golpear(): void {
     console.log(`${this.nombre} golpeo!`);
   }

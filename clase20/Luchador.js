@@ -24,6 +24,12 @@ var Luchador = /** @class */ (function (_super) {
         _this.fuerza = fuerza;
         return _this;
     }
+    Luchador.prototype.atacar = function () {
+        console.log("".concat(this.nombre, " lanza un golpe"));
+    };
+    Luchador.prototype.defender = function () {
+        console.log("".concat(this.nombre, " se defiende"));
+    };
     Luchador.prototype.golpear = function () {
         console.log("".concat(this.nombre, " golpeo!"));
     };

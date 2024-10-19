@@ -7,12 +7,6 @@ var Personaje = /** @class */ (function () {
         this.nivel = 1;
         this.puntosDeVida = puntosDeVida;
     }
-    Personaje.prototype.atacar = function () {
-        console.log("".concat(this.nombre, " ataca"));
-    };
-    Personaje.prototype.defender = function () {
-        console.log("".concat(this.nombre, " se defiende"));
-    };
     Personaje.prototype.subirNivel = function () {
         this.nivel++;
         console.log("".concat(this.nombre, " sube de nivel a ").concat(this.nivel));

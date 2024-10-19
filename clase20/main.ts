@@ -11,20 +11,20 @@ function main() {
 
   console.log("-------Turno Mago-------");
   mago.atacar();
-  mago.tirarHechizo();
   mago.defender();
+  mago.tirarHechizo();
   mago.subirNivel();
 
   console.log("-------Turno Luchador-------");
   luchador.atacar();
-  luchador.golpear();
   luchador.defender();
+  luchador.golpear();
   luchador.subirNivel();
 
   console.log("-------Turno Arquero-------");
   arquero.atacar();
-  arquero.tirarFlecha();
   arquero.defender();
+  arquero.tirarFlecha();
   arquero.subirNivel();
 
   console.log("El luchador decide abrir una caja magica!!");

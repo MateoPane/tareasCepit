@@ -8,6 +8,14 @@ class Mago extends Personaje {
     this.mana = mana;
   }
 
+  atacar(): void {
+    console.log(`${this.nombre} ataca con magia`);
+  }
+
+  defender(): void {
+    console.log(`${this.nombre} se defiende con un escudo magico`);
+  }
+
   tirarHechizo(): void {
     console.log(`${this.nombre} tiro un hechizo.`);
   }
