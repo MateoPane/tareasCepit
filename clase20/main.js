@@ -12,14 +12,17 @@ function main() {
     console.log("-------Turno Mago-------");
     mago.atacar();
     mago.tirarHechizo();
+    mago.defender();
     mago.subirNivel();
     console.log("-------Turno Luchador-------");
     luchador.atacar();
     luchador.golpear();
+    luchador.defender();
     luchador.subirNivel();
     console.log("-------Turno Arquero-------");
     arquero.atacar();
     arquero.tirarFlecha();
+    arquero.defender();
     arquero.subirNivel();
     console.log("El luchador decide abrir una caja magica!!");
     cajaMagica.habilidadNueva(luchador, "Golpe Feroz");
